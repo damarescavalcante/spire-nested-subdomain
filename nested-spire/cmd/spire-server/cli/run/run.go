@@ -84,6 +84,7 @@ type serverConfig struct {
 	RateLimit          rateLimitConfig    `hcl:"ratelimit"`
 	SocketPath         string             `hcl:"socket_path"`
 	TrustDomain        string             `hcl:"trust_domain"`
+	SubDomain          string             `hcl:"subdomain"`
 
 	ConfigPath string
 	ExpandEnv  bool
@@ -309,6 +310,7 @@ func parseFlags(name string, args []string, output io.Writer) (*serverConfig, er
 	flags.BoolVar(&c.LogSourceLocation, "logSourceLocation", false, "Include source file, line number and function name in log lines")
 	flags.StringVar(&c.LogLevel, "logLevel", "", "'debug', 'info', 'warn', or 'error'")
 	flags.StringVar(&c.TrustDomain, "trustDomain", "", "The trust domain that this server belongs to")
+	flags.StringVar(&c.SubDomain, "subDomain", "", "The subdomain that this server belongs to")
 	flags.BoolVar(&c.ExpandEnv, "expandEnv", false, "Expand environment variables in SPIRE config file")
 	c.addOSFlags(flags)
 
