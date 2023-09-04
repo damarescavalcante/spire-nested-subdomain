@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/common/catalog"
 	"github.com/spiffe/spire/pkg/common/pemutil"
 	sat_common "github.com/spiffe/spire/pkg/common/plugin/k8s"

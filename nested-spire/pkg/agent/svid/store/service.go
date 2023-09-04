@@ -9,7 +9,7 @@ import (
 
 	"github.com/andres-erbsen/clock"
 	"github.com/sirupsen/logrus"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/agent/catalog"
 	"github.com/spiffe/spire/pkg/agent/manager/storecache"
 	"github.com/spiffe/spire/pkg/agent/plugin/svidstore"

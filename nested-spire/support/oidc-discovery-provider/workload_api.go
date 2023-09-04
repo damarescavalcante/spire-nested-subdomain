@@ -11,7 +11,7 @@ import (
 	"github.com/andres-erbsen/clock"
 	"github.com/sirupsen/logrus"
 	"github.com/spiffe/go-spiffe/v2/bundle/jwtbundle"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/go-spiffe/v2/workloadapi"
 	"github.com/spiffe/spire/pkg/common/telemetry"
 	"github.com/spiffe/spire/pkg/common/util"

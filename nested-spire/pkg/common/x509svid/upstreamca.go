@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/andres-erbsen/clock"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/common/x509util"
 )
 
@@ -23,10 +23,11 @@ type UpstreamCAOptions struct {
 type UpstreamCA struct {
 	keypair     x509util.Keypair
 	trustDomain spiffeid.TrustDomain
+	subDomain spiffeid.SubDomain
 	options     UpstreamCAOptions
 }
 
-func NewUpstreamCA(keypair x509util.Keypair, trustDomain spiffeid.TrustDomain, options UpstreamCAOptions) *UpstreamCA {
+func NewUpstreamCA(keypair x509util.Keypair, trustDomain spiffeid.TrustDomain, subDomain spiffeid.SubDomain, options UpstreamCAOptions) *UpstreamCA {
 	if options.Backdate <= 0 {
 		options.Backdate = DefaultUpstreamCABackdate
 	}
@@ -37,6 +38,7 @@ func NewUpstreamCA(keypair x509util.Keypair, trustDomain spiffeid.TrustDomain, o
 	return &UpstreamCA{
 		keypair:     keypair,
 		trustDomain: trustDomain,
+		subDomain: subDomain,
 		options:     options,
 	}
 }

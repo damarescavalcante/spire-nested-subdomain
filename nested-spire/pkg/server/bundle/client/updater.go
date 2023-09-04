@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/spiffe/go-spiffe/v2/bundle/spiffebundle"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/common/bundleutil"
 	"github.com/spiffe/spire/pkg/server/datastore"
 	"github.com/zeebo/errs"

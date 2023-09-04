@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/test/clock"
 	"github.com/stretchr/testify/suite"
 )

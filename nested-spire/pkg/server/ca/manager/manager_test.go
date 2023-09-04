@@ -18,7 +18,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	telemetry_server "github.com/spiffe/spire/pkg/common/telemetry/server"
 	"github.com/spiffe/spire/pkg/server/ca"
 	"github.com/spiffe/spire/pkg/server/credtemplate"

@@ -25,7 +25,7 @@ import (
 	"github.com/fullsailor/pkcs7"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	agentstorev1 "github.com/spiffe/spire-plugin-sdk/proto/spire/hostservice/server/agentstore/v1"
 	"github.com/spiffe/spire/pkg/common/catalog"
 	caws "github.com/spiffe/spire/pkg/common/plugin/aws"

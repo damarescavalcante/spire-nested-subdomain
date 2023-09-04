@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	common "github.com/spiffe/spire/pkg/common/catalog"
 	"github.com/spiffe/spire/pkg/common/health"
 	"github.com/spiffe/spire/pkg/common/telemetry"

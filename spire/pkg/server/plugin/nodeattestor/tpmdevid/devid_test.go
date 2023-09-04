@@ -15,7 +15,7 @@ import (
 
 	"github.com/google/go-tpm/legacy/tpm2"
 	"github.com/hashicorp/go-hclog"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	configv1 "github.com/spiffe/spire-plugin-sdk/proto/spire/service/common/config/v1"
 	"github.com/spiffe/spire/pkg/agent/plugin/nodeattestor/tpmdevid/tpmutil"
 	"github.com/spiffe/spire/pkg/common/catalog"

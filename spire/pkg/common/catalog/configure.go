@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/sirupsen/logrus"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	configv1 "github.com/spiffe/spire-plugin-sdk/proto/spire/service/common/config/v1"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

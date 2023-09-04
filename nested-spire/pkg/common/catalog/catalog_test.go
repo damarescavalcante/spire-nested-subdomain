@@ -15,7 +15,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 	log_test "github.com/sirupsen/logrus/hooks/test"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire-plugin-sdk/pluginsdk"
 	"github.com/spiffe/spire-plugin-sdk/private/proto/test"
 	"github.com/spiffe/spire/pkg/common/catalog"

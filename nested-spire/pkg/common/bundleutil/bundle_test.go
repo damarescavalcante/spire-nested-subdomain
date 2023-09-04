@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	testlog "github.com/sirupsen/logrus/hooks/test"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire-api-sdk/proto/spire/api/types"
 	"github.com/spiffe/spire/proto/spire/common"
 	"github.com/spiffe/spire/test/spiretest"

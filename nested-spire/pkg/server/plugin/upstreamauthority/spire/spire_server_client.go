@@ -9,7 +9,7 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/spiffe/go-spiffe/v2/logger"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/go-spiffe/v2/spiffetls/tlsconfig"
 	"github.com/spiffe/go-spiffe/v2/workloadapi"
 	bundlev1 "github.com/spiffe/spire-api-sdk/proto/spire/api/server/bundle/v1"

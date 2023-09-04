@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/andres-erbsen/clock"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/proto/spire/common"
 	"google.golang.org/protobuf/proto"
 

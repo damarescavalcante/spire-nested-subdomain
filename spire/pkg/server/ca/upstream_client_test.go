@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	upstreamauthorityv1 "github.com/spiffe/spire-plugin-sdk/proto/spire/plugin/server/upstreamauthority/v1"
 	plugintypes "github.com/spiffe/spire-plugin-sdk/proto/spire/plugin/types"
 	"github.com/spiffe/spire/pkg/server/ca"

@@ -14,7 +14,7 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/spiffe/go-spiffe/v2/bundle/x509bundle"
 	"github.com/spiffe/go-spiffe/v2/proto/spiffe/workload"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/go-spiffe/v2/svid/x509svid"
 	commoncli "github.com/spiffe/spire/pkg/common/cli"
 	"github.com/spiffe/spire/pkg/common/cliprinter"

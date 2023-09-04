@@ -3,7 +3,7 @@ package middleware
 import (
 	"context"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire-api-sdk/proto/spire/api/types"
 	"github.com/spiffe/spire/pkg/server/api/rpccontext"
 	"google.golang.org/grpc/codes"

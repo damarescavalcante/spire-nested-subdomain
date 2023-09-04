@@ -7,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/go-spiffe/v2/svid/jwtsvid"
 	agent_delegatedidentityv1 "github.com/spiffe/spire-api-sdk/proto/spire/api/agent/delegatedidentity/v1"
 	"github.com/spiffe/spire-api-sdk/proto/spire/api/types"

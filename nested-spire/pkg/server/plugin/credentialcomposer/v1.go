@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	credentialcomposerv1 "github.com/spiffe/spire-plugin-sdk/proto/spire/plugin/server/credentialcomposer/v1"
 	"github.com/spiffe/spire/pkg/common/plugin"
 	"google.golang.org/grpc/codes"

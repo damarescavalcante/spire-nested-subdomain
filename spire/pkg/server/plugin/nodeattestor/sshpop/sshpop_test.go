@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/common/catalog"
 	"github.com/spiffe/spire/pkg/common/plugin/sshpop"
 	"github.com/spiffe/spire/pkg/server/plugin/nodeattestor"

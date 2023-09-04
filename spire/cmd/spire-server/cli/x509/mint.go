@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"github.com/mitchellh/cli"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	bundlev1 "github.com/spiffe/spire-api-sdk/proto/spire/api/server/bundle/v1"
 	svidv1 "github.com/spiffe/spire-api-sdk/proto/spire/api/server/svid/v1"
 	"github.com/spiffe/spire/cmd/spire-server/util"

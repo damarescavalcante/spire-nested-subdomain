@@ -17,7 +17,7 @@ import (
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	keymanagerv1 "github.com/spiffe/spire-plugin-sdk/proto/spire/plugin/server/keymanager/v1"
 	configv1 "github.com/spiffe/spire-plugin-sdk/proto/spire/service/common/config/v1"
 	"github.com/spiffe/spire/pkg/common/catalog"

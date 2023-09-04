@@ -9,7 +9,7 @@ import (
 	"github.com/andres-erbsen/clock"
 	"github.com/sirupsen/logrus"
 	"github.com/spiffe/go-spiffe/v2/bundle/spiffebundle"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/agent/common/backoff"
 	"github.com/spiffe/spire/pkg/common/telemetry"
 	agentmetrics "github.com/spiffe/spire/pkg/common/telemetry/agent"

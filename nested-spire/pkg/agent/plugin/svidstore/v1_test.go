@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	svidstorev1 "github.com/spiffe/spire-plugin-sdk/proto/spire/plugin/agent/svidstore/v1"
 	"github.com/spiffe/spire/pkg/agent/plugin/svidstore"
 	"github.com/spiffe/spire/pkg/common/catalog"

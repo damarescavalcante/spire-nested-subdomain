@@ -11,7 +11,7 @@ import (
 	"github.com/andres-erbsen/clock"
 	observer "github.com/imkira/go-observer"
 	"github.com/spiffe/go-spiffe/v2/bundle/spiffebundle"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/agent/client"
 	"github.com/spiffe/spire/pkg/agent/common/backoff"
 	"github.com/spiffe/spire/pkg/agent/manager/cache"

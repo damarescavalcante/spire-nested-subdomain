@@ -6,7 +6,7 @@ import (
 	"crypto/x509/pkix"
 	"encoding/asn1"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/common/catalog"
 )
 

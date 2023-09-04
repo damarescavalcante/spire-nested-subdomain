@@ -16,7 +16,7 @@ import (
 	"github.com/sirupsen/logrus/hooks/test"
 	"github.com/spiffe/go-spiffe/v2/bundle/spiffebundle"
 	workloadPB "github.com/spiffe/go-spiffe/v2/proto/spiffe/workload"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/go-spiffe/v2/svid/jwtsvid"
 	"github.com/spiffe/go-spiffe/v2/svid/x509svid"
 	"github.com/spiffe/spire/pkg/agent/api/rpccontext"

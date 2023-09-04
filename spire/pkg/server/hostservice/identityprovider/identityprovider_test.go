@@ -5,7 +5,7 @@ import (
 	"crypto/x509"
 	"testing"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	identityproviderv1 "github.com/spiffe/spire-plugin-sdk/proto/spire/hostservice/server/identityprovider/v1"
 	plugintypes "github.com/spiffe/spire-plugin-sdk/proto/spire/plugin/types"
 	"github.com/spiffe/spire/pkg/common/pemutil"

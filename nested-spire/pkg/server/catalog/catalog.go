@@ -8,7 +8,7 @@ import (
 
 	"github.com/andres-erbsen/clock"
 	"github.com/sirupsen/logrus"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire-plugin-sdk/pluginsdk"
 	metricsv1 "github.com/spiffe/spire-plugin-sdk/proto/spire/hostservice/common/metrics/v1"
 	agentstorev1 "github.com/spiffe/spire-plugin-sdk/proto/spire/hostservice/server/agentstore/v1"

@@ -16,7 +16,7 @@ import (
 
 	testlog "github.com/sirupsen/logrus/hooks/test"
 	"github.com/spiffe/go-spiffe/v2/bundle/spiffebundle"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/go-spiffe/v2/svid/x509svid"
 	agentv1 "github.com/spiffe/spire-api-sdk/proto/spire/api/server/agent/v1"
 	bundlev1 "github.com/spiffe/spire-api-sdk/proto/spire/api/server/bundle/v1"

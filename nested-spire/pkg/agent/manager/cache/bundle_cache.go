@@ -2,7 +2,7 @@ package cache
 
 import (
 	"github.com/imkira/go-observer"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 )
 
 type BundleCache struct {

@@ -10,7 +10,7 @@ import (
 	"github.com/andres-erbsen/clock"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/hcl"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	upstreamauthorityv1 "github.com/spiffe/spire-plugin-sdk/proto/spire/plugin/server/upstreamauthority/v1"
 	configv1 "github.com/spiffe/spire-plugin-sdk/proto/spire/service/common/config/v1"
 	"github.com/spiffe/spire/pkg/common/catalog"

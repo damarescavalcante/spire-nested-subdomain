@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/server/datastore"
 	"github.com/spiffe/spire/proto/spire/common"
 	"github.com/spiffe/spire/test/fakes/fakedatastore"

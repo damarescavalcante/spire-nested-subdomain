@@ -10,7 +10,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/server/plugin/bundlepublisher"
 	"github.com/spiffe/spire/proto/spire/common"
 	"github.com/spiffe/spire/test/clock"

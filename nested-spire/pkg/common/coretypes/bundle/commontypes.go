@@ -3,7 +3,7 @@ package bundle
 import (
 	"fmt"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	plugintypes "github.com/spiffe/spire-plugin-sdk/proto/spire/plugin/types"
 	"github.com/spiffe/spire/pkg/common/coretypes/jwtkey"
 	"github.com/spiffe/spire/pkg/common/coretypes/x509certificate"

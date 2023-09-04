@@ -4,7 +4,7 @@ import (
 	"crypto/x509"
 
 	"github.com/sirupsen/logrus"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire-api-sdk/proto/spire/api/types"
 	"github.com/spiffe/spire/pkg/common/errorutil"
 	"github.com/spiffe/spire/pkg/common/telemetry"

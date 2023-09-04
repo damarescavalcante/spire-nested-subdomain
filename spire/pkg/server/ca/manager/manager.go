@@ -12,7 +12,7 @@ import (
 
 	"github.com/andres-erbsen/clock"
 	"github.com/sirupsen/logrus"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/common/telemetry"
 	telemetry_server "github.com/spiffe/spire/pkg/common/telemetry/server"
 	"github.com/spiffe/spire/pkg/common/x509util"

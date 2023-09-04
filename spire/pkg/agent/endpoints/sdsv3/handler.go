@@ -17,7 +17,7 @@ import (
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/sirupsen/logrus"
 	"github.com/spiffe/go-spiffe/v2/bundle/spiffebundle"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/agent/api/rpccontext"
 	"github.com/spiffe/spire/pkg/agent/manager/cache"
 	"github.com/spiffe/spire/pkg/common/pemutil"

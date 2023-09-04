@@ -26,7 +26,7 @@ import (
 	"github.com/imdario/mergo"
 	"github.com/mitchellh/cli"
 	"github.com/sirupsen/logrus"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/agent"
 	"github.com/spiffe/spire/pkg/agent/workloadkey"
 	"github.com/spiffe/spire/pkg/common/bundleutil"

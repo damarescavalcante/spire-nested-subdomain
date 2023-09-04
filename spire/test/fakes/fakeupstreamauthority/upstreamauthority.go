@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	upstreamauthorityv1 "github.com/spiffe/spire-plugin-sdk/proto/spire/plugin/server/upstreamauthority/v1"
 	"github.com/spiffe/spire/pkg/common/coretypes/jwtkey"
 	"github.com/spiffe/spire/pkg/common/coretypes/x509certificate"

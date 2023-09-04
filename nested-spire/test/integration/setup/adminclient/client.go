@@ -13,7 +13,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	agentv1 "github.com/spiffe/spire-api-sdk/proto/spire/api/server/agent/v1"
 	bundlev1 "github.com/spiffe/spire-api-sdk/proto/spire/api/server/bundle/v1"
 	entryv1 "github.com/spiffe/spire-api-sdk/proto/spire/api/server/entry/v1"

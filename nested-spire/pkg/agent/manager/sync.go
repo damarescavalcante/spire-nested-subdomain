@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/spire/pkg/agent/manager/cache"
 	"github.com/spiffe/spire/pkg/agent/workloadkey"
 	"github.com/spiffe/spire/pkg/common/bundleutil"

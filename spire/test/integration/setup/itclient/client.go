@@ -8,7 +8,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/go-spiffe/v2/spiffetls/tlsconfig"
 	"github.com/spiffe/go-spiffe/v2/workloadapi"
 	agent "github.com/spiffe/spire-api-sdk/proto/spire/api/server/agent/v1"

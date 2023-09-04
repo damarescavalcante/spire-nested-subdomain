@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/hcl"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	identityproviderv1 "github.com/spiffe/spire-plugin-sdk/proto/spire/hostservice/server/identityprovider/v1"
 	plugintypes "github.com/spiffe/spire-plugin-sdk/proto/spire/plugin/types"
 	configv1 "github.com/spiffe/spire-plugin-sdk/proto/spire/service/common/config/v1"

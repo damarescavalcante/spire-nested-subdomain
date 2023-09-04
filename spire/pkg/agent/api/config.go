@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/spiffe/go-spiffe/v2/spiffeid"
+	"github.com/damarescavalcante/go-spiffe/v2/spiffeid"
 	attestor "github.com/spiffe/spire/pkg/agent/attestor/workload"
 	"github.com/spiffe/spire/pkg/agent/manager"
 	"github.com/spiffe/spire/pkg/common/peertracker"
