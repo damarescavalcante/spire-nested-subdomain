@@ -61,7 +61,7 @@ require (
 	github.com/sigstore/rekor v1.2.2
 	github.com/sigstore/sigstore v1.7.2
 	github.com/sirupsen/logrus v1.9.3
-	github.com/damarescavalcante/go-spiffe/v2
+	github.com/damarescavalcante/go-spiffe/v2 v2.0.0-20230904183225-49cfa4258bc6
 	github.com/spiffe/spire-api-sdk v1.2.5-0.20230629125323-08049dbe95e6
 	github.com/spiffe/spire-plugin-sdk v1.4.4-0.20230721151831-bf67dde4721d
 	github.com/stretchr/testify v1.8.4
